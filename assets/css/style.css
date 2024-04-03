@@ -7,11 +7,27 @@ body {
     min-height: 60vh;
   }
   
-  .task-card {
+  .card {
     margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
   
-  .task-card:hover {
+  .card:hover {
     cursor: grab;
+  }
+  
+  .card .btn {
+    margin-top: 5px;
+  }
+  
+  .near-deadline {
+    background-color: yellow;
+  }
+  
+  .overdue {
+    background-color: red;
   }
   
